@@ -7,8 +7,8 @@ function getKeys(obj) {
 }
 console.log(getKeys(student))
 
-console.log(getKeys{
+console.log(getKeys({
 	name : "John",
 	age : 24,
 	city : "Hyd"
-})
+}))
