@@ -1,14 +1,9 @@
 //your JS code here. If required.
-let student = {
-	name : "Jahnavi"
+Object.prototype.getKeys = function (){
+	return Object.keys(this)
 }
-function getKeys(obj) {
-	return Object.keys(obj);
-}
-console.log(getKeys(student));
 
-console.log(getKeys({
-	name : "John",
-	age : 24,
-	city : "Hyd"
-}));
+const student = {
+	name : "John"
+}
+console.log(student.getKeys())
